@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Layla Yang</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Layla.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/land.svg" alt="land-img">
+    </div>
+
+    <div class="middle-container">
+      <h2>Hello.</h2>
+      <div class="profile">
+        <h3>About me.</h3>
+        <p class="intro">I am a <em>graudate student</em> in <strong>Worcester Polytechnic Institute</strong>. I love structure and order and I also stand for quality. I love spending time on fixing little details. Also I like working in a team, you'll learn faster and much more.</p>
+      </div>
+
+      <div class="profile-text-center">
+        <img class="layla-img" src="images/layla.JPG" alt="layla-img" height="300">
+      </div>
+
+      <div class="details">
+        <h3>Details.</h3>
+        <p><strong>Name:</strong>
+          <br>
+        Chengcheng(Layla) Yang
+        <br>
+        <strong>Location:</strong>
+        <br>
+        Worcester, MA
+      </p>
+      </div>
+      <div class="education">
+        <h2>My Education.</h2>
+
+        <div class="education-row">
+          <img class="education1-img" src="images/wpi.png" alt="education1-img">
+
+          <h3>Worcester Polytechnic Institute, Worcester, MA</h3>
+          <p>Master of Science in Applied Statistics & Data Science.</p>
+
+        </div>
+        <div class="education-row">
+          <img class="education2-img" src="images/dongbei.jpg" alt="education2-img">
+
+          <h3>Northeastern University of Finance and Economics, China</h3>
+          <p>B.S in Applied Mathematics & B.A in Finance, Dual Major.</p>
+
+        </div>
+      </div>
+
+      <hr>
+      <div class="work-and-projects">
+      <h2>Work Experience</h2>
+        <h3>May.2018 – Aug.2018</h3>
+        <h3>Data Analyst at Moyi-Tech, Inc</h3>
+          <p class="work-experience">Built <strong>a product recommender system</strong> with Python and Spark for an E-commerce platform from scratch.</p>
+          <p class="work-experience">Scraped health care products data, including detailed information of <strong>all types of products (over 6000)</strong>, user profile, user behavior data and stored data in HDFS.</p>
+          <p class="work-experience">Performed <strong>data manipulation of 1G data</strong> using Spark including removing unwanted observations, fixing structural errors, filtering unwanted outliers and handling missing data.</p>
+          <p class="work-experience">Performed <strong>feature engineering using Spark</strong> such as creating interaction features, combine sparse classes, adding dummy variables and removing unused features.
+          </p>
+          <p class="work-experience">Performed <strong>exploratory analysis</strong> by plotting numerical distributions, categorical distributions.</p>
+          <p class="work-experience">Implemented Logistic Regression algorithm based on business requirements using PySpark, optimized model results and passed to downstream production team.</p>
+
+  <hr>
+
+    <h2>Projects</h2>
+    <h3>Movie Recommender System</h3>
+    <p class="work-experience">Built <strong>a movie recommender system</strong> based on <strong>1G Netflix raw data</strong> and utilized <strong>item-based collaborative filtering algorithm</strong>.</p>
+    <p class="work-experience">Implemented recommender algorithm by constructing users’ movies rating matrix, obtaining movies co-occurrence matrix after normalization and multiplying two matrixes to calculate final recommendation list.</p>
+    <p class="work-experience">Built Hadoop’s pseudo-distributed cluster environment in <strong>docker</strong> and run Hadoop MapReduce jobs to data predecessor, matrixes calculation and stored processed data in HDFS.</p>
+    <p class="work-experience">The final system performed a good predication compared with actual ratings and reached accuracy <strong>over 75%</strong>.</p>
+<hr>
+    <h3>Analysis on Bike Share Data</h3>
+    <p class="work-experience">Built <strong>a data pipeline on GCP</strong> to analyze the average duration for each bike share trip and users’ one-day, three-day and seven-day retention rate by utilizing Airflow as the scheduler tool.</p>
+    <p class="work-experience">Performed <strong>ETL job of about 900MB the public bike share data</strong> and stored processed data in GCP storage.</p>
+    <p class="work-experience">Extracted user ID, name and average duration data to calculate retention rates in Spark.</p>
+    <p class="work-experience">Created Dag file dynamically using <strong>Yaml and Jinja2</strong> to creating/deleting cluster on dataproc, analyzing data in Spark and run big query by processed data.</p>
+    <p class="work-experience">Implemented algorithm to write Dag file in parallel for multiple jobs to improve efficiency and run Dag file on the <strong>cloud composer</strong>.</p>
+
+<hr>
+<h3>Page Rank</h3>
+<p class="work-experience">Implemented an efficient ranking algorithm for Google search engines by utilizing wiki datasets.</p>
+<p class="work-experience">Utilized <strong>the adjacency matrix</strong> to construct the relationship between web pages and calculate each webpage’s page rank based on <strong>the constructed relationship matrix</strong>, calculated web page rankings using convergence value.</p>
+<p class="work-experience">Built the whole algorithm using <strong>MapReduce framework</strong> under docker cluster environment and handled all edge cases namely spider trap and dead end.</p>
+<p class="work-experience">Implemented <strong>data visualization of the page rank results</strong> by developing a site in Python.</p>
+<hr>
+<h3>Analysis on Lending Club Data</h3>
+<p class="work-experience">Built <strong>a data pipeline on GCP</strong> to analyze and predict loan reject or approval of specific user profiles.</p>
+<p class="work-experience">Performed data cleaning of a<strong>bout 500 MB public lending club data</strong> and stored data into GCS.</p>
+<p class="work-experience">Analyzed several relationships in Spark including users’ home and collection ownership relationship, 36-month and 60-month terms difference and average DTI and users’ working years relationship and users’ average annual income and average loan amount relationship.</p>
+<p class="work-experience">Implemented data pipelining <strong>under Airflow and utilized Yaml and Jinja2</strong> to create Dag file which run on cloud composer.</p>
+<p class="work-experience">Performed debugging of Dag file and <strong>developed a dashboard</strong> to visualize the final analysis result using Data Studio.</p>
+</div>
+<hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill1-img" src="images/skills.png" alt="skill1-img">
+
+          <h3>Programming Skills</h3>
+          <p>Java, Scala, Spark, SQL, Python</p>
+
+        </div>
+        <div class="skill-row">
+          <img class="skill2-img" src="images/computer.png" alt="skill2-img">
+
+          <h3>Tools, Frameworks and Database</h3>
+          <p>Hadoop, MapReduce, HDFS, Airflow, Docker, Google Cloud Platform, Pig, Hive, MongoDB, HBase, MySQL, HTML, CSS, JavaScript</p>
+
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you are interested in my background.</h3>
+        <p class="contact-message"><strong>Please give me a chance. I will be appreciated.</strong></p>
+        <a class="btn" href="mailto:laylayang1020@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/layla-y-661791190/">LinkedIn</a>
+      <p class="copyright">© 2019 Layla Yang.</p>
+    </div>
+
+  </body>
+</html>
